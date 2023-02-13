@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://ipv4.webshare.io/*
+// @updateURL    https://raw.githubusercontent.com/haibrvt/test/main/test.js
 // @downloadURL  https://raw.githubusercontent.com/haibrvt/test/main/test.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
