@@ -1,17 +1,4 @@
-// ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
-// @author       You
-// @match        https://ipv4.webshare.io/*
-// @updateURL    https://raw.githubusercontent.com/haibrvt/test/main/test.js
-// @downloadURL  https://raw.githubusercontent.com/haibrvt/test/main/test.js
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
-// @grant        none
-// ==/UserScript==
-
-(function() {
+function checkip() {
     'use strict';
     var url = "https://ipv4.webshare.io";
     var ipcheck=0;
@@ -22,6 +9,8 @@
             getacc();
         });
     });
+    
+}
     function getacc() {
         //ip > mail > btc > eth > doge > ltc > bnb
         var vi = [
@@ -36,6 +25,3 @@
         if (ipcheck == '115.73.10.42')
             alert(acc[0][1])
     }
-
-    // Your code here...
-})();
