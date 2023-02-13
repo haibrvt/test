@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://ipv4.webshare.io/*
 // @updateURL    https://github.com/mygithubaccount/test/raw/master/test.user.js
+// @downloadURL  https://github.com/mygithubaccount/test/raw/master/test.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // ==/UserScript==
