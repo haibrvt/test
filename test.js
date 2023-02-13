@@ -24,8 +24,8 @@
     function getacc() {
         //ip > mail > btc > eth > doge > ltc > bnb
         var vi = [
-            ["a","b"],
-            ["c","d"],
+            ["a","b","b"],
+            ["c","d","b"],
         ]
         //ip > acc
         var acc = [
